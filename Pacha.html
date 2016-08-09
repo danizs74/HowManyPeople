@@ -32,20 +32,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-   
-
+  
 		 </div>
 
 		 <div id="collapsable-nav" class="collapse navbar-collapse">
 		 	<ul id="nav-list" class="nav navbar-nav navbar-right"> 
-
-		 	<li class="visible-xs active">
+		 	<li class="visible-xs">
 		 		<a href="index.html">
 		 			<span class="glyphicon glyphicon-home"> Home</span>
 		 		</a>
 
 		 	</li>
-		 		<li>
+
+
+		 		<li class="active">
 		 			<a href="playa-categories.html">
 		 				<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
 		 			
@@ -61,32 +61,61 @@
 		 		
 		 		</li>
 
-		 	
+		 		<li id="phone" class="hidden-xs">
+		 			<a href="tel:123-456-789">
+		 				<span>123-456-789</span></a><div>* We Deliver</div>
 		 		
 		 		</li>
-
-
 		 	</ul>
-
 		 </div>
-		
 	</div>	
 	</nav>
 </header>
+
+<!--MAIN CONTENT -->
 <div id="main-content" class="container">
-<div class="jumbotron">
-<img src="images/jumbotron_750.jpg" alt="Picture of Barcelona" class="img-responsive visible-xs">
+
+<h2 id="playa-categories-tile" class="text-center">Pacha</h2>
+<div id="rowpabajo" class="text-center">Abierto de 12:00 - 5:00</div>
+<section  class="row">
+<div class="playa-item-tile col-md-6">
+	<div class="row">
+		<div class="col-sm-5">
+			<div class="playa-item-photo">
+				<img class="img-responsive" width="250" height="150" src="images/Pacha.jpg" alt="Item">
+			</div>
+			<div class="playa-item-price">15€<span> (1 drink)</span> 20€ <span>(2 drinks)</span></div>
+		</div>
+		<div class="playa-item-description col-sm-7">
+			<h3 class="playa-item-title">Lista antes de las 2:00</h3>
+			<p class="playa-item-details">Pacha Barcelona está ubicado en un lugar privilegiado y único, a primera línea de mar, en la zona de ocio más importante de la ciudad. El proyecto ha sido desarrollado por el equipo interiorista del Grupo Pacha, en colaboración con Pepe López del Hoyo. El club se caracteriza por sus blancos, en contraste con el rojo corporativo, así como con sus formas orgánicas y redondeadas, al más puro estilo ibicenco.
+
+Abierto todos los días de la semana, con una fuerte apuesta comercial, apostando en cada uno de los días por distintos estilos musicales, para traer a la ciudad condal los mejores Deejays y Artistas (nacionales e internacionales) del panorama musical del momento.</p>
+		</div>
+	</div>
+	<hr class="visible-xs">
+</div>
+
+ <!--<div class="clearfix visible-md-block visible-lg-block"></div>encajar columnas -->
+
+
+<div class="col-md-4 col-sm-12 col-xs-12">
+ 	<a href="https://www.google.es/maps/place/Pacha+Barcelona/@41.3774628,2.1907722,13.83z/data=!4m18!1m12!4m11!1m3!2m2!1d2.1968417!2d41.3871854!1m6!1m2!1s0x12a4a30ed4c76ce9:0x3af51a6640254e5b!2spacha+barcelona!2m2!1d2.196844!2d41.38536!3m4!1s0x12a4a30ed4c76ce9:0x3af51a6640254e5b!8m2!3d41.38536!4d2.196844" target="_blank">
+ 		<div id="map-tile">
+ 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26883.81454631026!2d2.1907721860027776!3d41.37746282542474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a30ed4c76ce9%3A0x3af51a6640254e5b!2sPacha+Barcelona!5e0!3m2!1ses!2ses!4v1470595462133" width="100%" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+ 			<span>Mapa</span>
+ 		</div>
+ 	</a>
+ </div>
+	
+</section>
+
+<div class="col-md-12 col-sm-12 col-xs-12">
+<a href="http://www.pachabarcelona.es/" target="_blank">
+	<div>Ir a la web de Pacha</div>
+</a>
  </div>
 
- <div id="home-tiles" class="row">
- <div class="col-md-4 col-sm-6 col-xs-12">
- <a href="playa-categories.html"><div id="playa-tile"><span>Playa</span></div></a>
- </div>
- <div class="col-md-4 col-sm-6 col-xs-12"><a href="single-category.html"><div id="centro-tile"><span>Centro</span></div></a>
- </div>
-  <div class="col-md-4 col-sm-12 col-xs-12"><a href="single-category.html"><div id="otros-tile"><span>Otros</span></div></a>
- </div>
- </div>
  </div><!-- fin del Main content-->
 
  <footer class="panel-footer">
