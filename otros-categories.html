@@ -38,14 +38,13 @@
 
 		 <div id="collapsable-nav" class="collapse navbar-collapse">
 		 	<ul id="nav-list" class="nav navbar-nav navbar-right"> 
-
-		 	<li class="visible-xs active">
+		 	<li class="visible-xs">
 		 		<a href="index.html">
 		 			<span class="glyphicon glyphicon-home"> Home</span>
 		 		</a>
 
 		 	</li>
-		 		<li>
+		 		<li class="active">
 		 			<a href="playa-categories.html">
 		 				<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
 		 			
@@ -60,26 +59,46 @@
 		 				<span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
 		 		
 		 		</li>
+
+		 		<li id="phone" class="hidden-xs">
+		 			<a href="tel:123-456-789">
+		 				<span>123-456-789</span></a><div>* We Deliver</div>
+		 		
 		 		</li>
 		 	</ul>
 		 </div>
 	</div>	
 	</nav>
 </header>
-<div id="main-content" class="container">
-<div class="jumbotron">
-<img src="images/jumbotron_750.jpg" alt="Picture of Barcelona" class="img-responsive visible-xs">
- </div>
 
- <div id="home-tiles" class="row">
- <div class="col-md-4 col-sm-6 col-xs-12">
- <a href="playa-categories.html"><div id="playa-tile"><span>Playa</span></div></a>
- </div>
- <div class="col-md-4 col-sm-6 col-xs-12"><a href="centro-categories.html"><div id="centro-tile"><span>Centro</span></div></a>
- </div>
-  <div class="col-md-4 col-sm-12 col-xs-12"><a href="otros-categories.html"><div id="otros-tile"><span>Otros</span></div></a>
- </div>
- </div>
+
+<!--MAIN CONTENT -->
+<div id="main-content" class="container">
+<h2 id="playa-categories-title" class="text-center">Otros</h2>
+<div class="text-center">Centro</div>
+<section class="row">
+	<div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+		<a href="row.html">
+			<div class="category-tile">
+			<img width="200" height="200" src="images/row.jpg" alt="Bling">
+			<span>El Row</span>
+			 </div>
+		</a>
+	</div>
+	<div  class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+		<a href="brunch.html">
+			<div class="category-tile">
+			<img width="200" height="200" src="images/brunch.jpg" alt="Brunch">
+			<span>Brunch</span>
+			 </div>
+		</a>
+	</div>
+
+	
+
+	
+
+</section>
  </div><!-- fin del Main content-->
 
  <footer class="panel-footer">

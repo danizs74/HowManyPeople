@@ -32,20 +32,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-   
-
+  
 		 </div>
 
 		 <div id="collapsable-nav" class="collapse navbar-collapse">
 		 	<ul id="nav-list" class="nav navbar-nav navbar-right"> 
-
-		 	<li class="visible-xs active">
+		 	<li class="visible-xs">
 		 		<a href="index.html">
 		 			<span class="glyphicon glyphicon-home"> Home</span>
 		 		</a>
 
 		 	</li>
-		 		<li>
+
+
+		 		<li class="active">
 		 			<a href="playa-categories.html">
 		 				<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
 		 			
@@ -60,26 +60,62 @@
 		 				<span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
 		 		
 		 		</li>
+
+		 		<li id="phone" class="hidden-xs">
+		 			<a href="tel:123-456-789">
+		 				<span>123-456-789</span></a><div>* We Deliver</div>
+		 		
 		 		</li>
 		 	</ul>
 		 </div>
 	</div>	
 	</nav>
 </header>
+
+<!--MAIN CONTENT -->
 <div id="main-content" class="container">
-<div class="jumbotron">
-<img src="images/jumbotron_750.jpg" alt="Picture of Barcelona" class="img-responsive visible-xs">
+
+<h2 id="playa-categories-tile" class="text-center">El Brunch</h2>
+<div id="rowpabajo" class="text-center">Abierto de 12:00 - 5:00</div>
+<section  class="row">
+<div class="playa-item-tile col-md-6">
+	<div class="row">
+		<div class="col-sm-5">
+			<div class="playa-item-photo">
+				<img class="img-responsive" width="250" height="300" src="images/brunchele.jpg" alt="Item">
+			</div>
+			<div class="playa-item-price">12€<span> (1a tanda)</span> 15€ <span>(2a tanda)</span></div>
+		</div>
+		<div class="playa-item-description col-sm-7">
+			<h3 class="playa-item-title">Sin Listas</h3>
+			<p class="playa-item-details">Imagina un brunch nómada capaz de convertir los domingos en tu nuevo día favorito de la semana. Empieza tu visita descubriendo las novedades de los diseñadores emergentes más cool de la ciudad, disfruta con los más pequeños de las actividades y talleres que hemos preparado para ellos y carga energía en nuestros food trucks y stands de comida antes de bailar al ritmo de la mejor música electrónica. En la programación de Brunch tienen cabida Dj’s de nivel internacional así como Dj’s reconocidos dentro de la escena local de Barcelona.
+
+Brunch cambia de ubicación en función de la época del año: en primavera y otoño podrás encontrarnos In the City (en el Poble Espanyol) y, en verano, In the Park (ubicado en los Jardines Joan Brossa). Tú decides, ¿vas a quedarte un domingo más en el sofá?</p>
+		</div>
+	</div>
+	<hr class="visible-xs">
+</div>
+
+ <!--<div class="clearfix visible-md-block visible-lg-block"></div>encajar columnas -->
+
+
+<div class="col-md-4 col-sm-12 col-xs-12">
+ 	<a href="https://www.google.es/maps/place/Poble+Espanyol/@41.3688085,2.1307637,14z/data=!4m8!1m2!2m1!1sbrunch+electronik+barcelona!3m4!1s0x12a4a2776a5b6227:0xb0c05232453a54a5!8m2!3d41.3688085!4d2.1482732">
+ 		<div id="map-tile">
+ 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23953.942693070567!2d2.130763739550777!3d41.3688085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2776a5b6227%3A0xb0c05232453a54a5!2sPoble+Espanyol!5e0!3m2!1ses!2ses!4v1470926700192" width="100%" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+ 			<span>Mapa</span>
+ 		</div>
+ 	</a>
+ </div>
+	
+</section>
+
+<div class="col-md-12 col-sm-12 col-xs-12">
+<a href="http://barcelona.brunch-in.com/" target="_blank">
+	<div>Ir a la web del Brunch</div>
+</a>
  </div>
 
- <div id="home-tiles" class="row">
- <div class="col-md-4 col-sm-6 col-xs-12">
- <a href="playa-categories.html"><div id="playa-tile"><span>Playa</span></div></a>
- </div>
- <div class="col-md-4 col-sm-6 col-xs-12"><a href="centro-categories.html"><div id="centro-tile"><span>Centro</span></div></a>
- </div>
-  <div class="col-md-4 col-sm-12 col-xs-12"><a href="otros-categories.html"><div id="otros-tile"><span>Otros</span></div></a>
- </div>
- </div>
  </div><!-- fin del Main content-->
 
  <footer class="panel-footer">
