@@ -1,12 +1,12 @@
 body{
 	font-size: 16px;
 	color: #fff;
-	background-color: #61122f;
+	background-color: white;
 	font-family: 'Oxygen', sans-serif;
 }
 
 #header-nav {
-	background-color: black;
+	background-color: #F3E5AB;
 	border-radius: 0;
 	border: 0; 
 }
@@ -177,6 +177,14 @@ overflow: hidden;
 
 /* PLAYA CATEGORIES PAGE*/
 
+.category-tile-new {
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 800px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
 .category-tile {
 	position: relative;
 	border: 2px solid #3F0C1F;
@@ -238,8 +246,8 @@ overflow: hidden;
 	padding: 0;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 20px;
-	max-width: 250px;
+	margin-bottom: 10px;
+	max-width: 350px;
 }
 
 .playa-item-photo div {
@@ -264,9 +272,20 @@ h3.playa-item-title{
 	font-size: .9em;
 	font-style: italic;
 	overflow: auto;
-	height: 146px;
+	height: 168px;
 }
-
+.about-item-details {
+	font-size: .9em;
+	font-style: italic;
+	width: 600px;
+	height: 300px;
+}
+.about2-item-details {
+	font-size: .9em;
+	font-style: italic;
+	width: 600px;
+	height: 60px;
+}
 
 #rowpabajo{
 	margin-bottom: 30px;
@@ -278,11 +297,10 @@ h3.playa-item-title{
 /*RESOLUTIONS*/
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
 	.container .jumbotron{
 		background: url('../images/jumbotron.jpg') no-repeat;
 		height: 768px;
-		position : absolute;
 
 	}
 
