@@ -282,7 +282,7 @@ h3.playa-item-title{
 	.container .jumbotron{
 		background: url('../images/jumbotron.jpg') no-repeat;
 		height: 768px;
-		width: 100%;
+		position : absolute;
 
 	}
 
